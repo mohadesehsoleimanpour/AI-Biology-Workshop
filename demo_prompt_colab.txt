@@ -1,0 +1,10 @@
+Write one beginner-friendly Python code cell for Google Colab. Use pandas and matplotlib. I will upload demo_data.csv to the Colab Files pane before running the code.
+
+The CSV has three columns: donor_id, hpv16_rna_status (Undetected or Detected), and mean_apobec3a_expression. It contains synthetic averages for two groups of basal tumor cells from each of six donors.
+
+1. Read demo_data.csv and display the first few rows.
+2. Check for duplicate donor-status rows and count donors with one value in both groups.
+3. Make a paired plot for complete pairs. Put HPV16 RNA undetected on the left and HPV16 RNA detected on the right. Use one line per donor. Label the y-axis Mean APOBEC3A expression (arbitrary units).
+4. Print both values for D01 and calculate Detected minus Undetected.
+
+Add short comments. Return the Python code in one code block so I can copy it into Colab.
