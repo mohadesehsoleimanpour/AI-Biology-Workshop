@@ -1,0 +1,9 @@
+This CSV contains synthetic data for six donors. Each value is the average
+APOBEC3A expression in one group of basal tumor cells from one donor.
+
+Make a paired plot. Put “HPV16 RNA undetected” on the left and
+“HPV16 RNA detected” on the right. Label the y-axis “Mean APOBEC3A expression
+(arbitrary units).” Connect the two scores from each donor with one line.
+
+Report how many donors have one value in each group. For D01, show both
+values and calculate Detected minus Undetected.
